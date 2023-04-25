@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 10px;
+            border: 2px solid black;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        header h1{
+            width: 200px;
+            line-height: 100px;
+            background-color: yellow;
+            float: left;
+            text-align: center;
+        }
+        nav{
+            float: right;
+            overflow: hidden;
+            position: relative;
+
+        }
+        nav ul{
+            overflow: hidden;
+            background-color: antiquewhite;
+
+        }
+        nav ul:nth-of-type(1)li {
+            float: left;
+            padding-left: 20px;
+            background-color: yellow;
+            line-height: 30px;
+        }
+        nav ul : :nth-of-type(2) li {
+            float:left;
+            padding-left: 20px;
+            background-color: orange;
+            line-height:30px;
+            margin-top:40px;
+        }
+
+        #main{
+            width: 1000px;
+            overflow: hidden;
+            margin: 10px auto;
+        }
+        #main section {
+            width: 700px;
+            overflow: hidden;
+            float: left;
+
+        }
+
+        #main section article{
+            width: 700px;
+            border: 2px solid black;
+            overflow: hidden;
+            padding: 20px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+        article>h2{
+            background-color: antiquewhite;
+
+        }
+
+        aside{
+            width: 280px;
+            float: right;
+            overflow: hidden;
+            border: 2px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        aside .bannerbox{
+            background-color: gray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        footer{
+            width: 1000px;
+            height: 50px;
+            line-height: 50px;
+            margin: 10px auto;
+            border: 2px solid black;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: antiquewhite;
+        }
+    </style>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        a{
+            text-decoration: none;
+        }
+        li{
+            list-style: none;
+        }
+        img{
+            display: block;
+            border: none;
+
+        }
+        body{
+            font-family: 'Verdana';
+            font-size: 14px;
+            color: black;
+            line-height: 28px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WEB-logo</h1>
+        <nav>
+            <ul>
+                <li>menu-1</li>
+                <li>menu-1</li>
+                <li>menu-1</li>
+                <li>menu-1</li>
+            </ul>
+            <ul>
+                <li>menu-2</li>
+                <li>menu-2</li>
+                <li>menu-2</li>
+                <li>menu-2</li>
+            </ul>
+        </nav>
+    </header>
+    <div id="main">
+        <section>
+            <article>
+                <h2>Main Article</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus doloribus aliquid, omnis in inventore, eius vitae harum a earum tenetur sunt libero commodi dignissimos nihil debitis perspiciatis quasi dolorem nobis!
+                </p>
+            </article>
+            <article>
+                <h2>Main Article</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae explicabo, aliquam illo quaerat a, sapiente quidem laboriosam at est veniam alias hic nisi voluptatibus nihil tempora ut doloremque! Iusto, eos.
+                </p>
+            </article>
+            <article>
+                <h2>Main Article</h2>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae explicabo, aliquam illo quaerat a, sapiente quidem laboriosam at est veniam alias hic nisi voluptatibus nihil tempora ut doloremque! Iusto, eos.
+                </p>
+            </article>
+        </section>
+        <aside>
+            <h2>Right aside</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis ipsam ratione alias architecto iste aspernatur facilis tenetur omnis sit voluptatibus officia sapiente ullam recusandae, pariatur veniam. Qui tenetur sint eveniet?
+            </p>
+            <label for="email">Mail</label>
+            <input type="email"/>
+            <button>Mailto</button>
+            <div class="bannerbox">
+                <h2>TEXT</h2>
+                <p>banner</p>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>HTML5 COPYRIGHT</p>
+    </footer>
+    
+</body>
+</html>
